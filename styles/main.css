@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Open+Sans&family=Poppins&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+/* style for header */
+.banner {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 213px 230px;
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    text-align: right;
+}
+.banner h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #999999;
+}
+.but-contact-us {
+    height: 64px;
+    padding: 20px 25px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ff7200;
+    border: none;
+    border-radius: 5px;
+}
+.but-contact-us:hover {
+    background-color: #d15d00;
+}
