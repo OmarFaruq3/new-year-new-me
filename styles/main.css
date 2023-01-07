@@ -5,11 +5,19 @@ body {
     font-family: "Nanum Gothic", sans-serif;
 }
 
+/* common styles */
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #999999;
+}
+
 /* style for header */
 .banner {
     max-width: 1140px;
     margin: 0 auto;
-    padding: 213px 230px;
+    padding: 160px 230px;
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     text-align: right;
@@ -17,12 +25,6 @@ body {
 .banner h1 {
     font-size: 65px;
     font-weight: 700;
-}
-.banner p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    color: #999999;
 }
 .but-contact-us {
     height: 64px;
@@ -35,4 +37,43 @@ body {
 }
 .but-contact-us:hover {
     background-color: #d15d00;
+}
+
+/* styling for main */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.failures {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.failures-photo {
+    width: 50%;
+}
+.failures-photo img {
+    width: 100%;
+}
+.failures-info {
+    width: 50%;
+    padding-left: 90px;
+}
+.failures-info h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.failures-info p {
+    width: 400px;
+}
+.failures-info ul {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #999999;
+}
+.failures-info ul li {
+    padding-bottom: 5px;
 }
