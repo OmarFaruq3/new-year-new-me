@@ -6,7 +6,8 @@ body {
 }
 
 /* common styles */
-p {
+p,
+span {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -39,12 +40,13 @@ p {
     background-color: #d15d00;
 }
 
-/* styling for main */
+/* style for main */
 main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+/* style for failures */
 .failures {
     margin-top: 130px;
     display: flex;
@@ -76,4 +78,32 @@ main {
 }
 .failures-info ul li {
     padding-bottom: 5px;
+}
+
+/* Style for plans */
+.plans {
+    margin-top: 130px;
+}
+.plans h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.plan-cart-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.plan-cart {
+    width: 258px;
+}
+.plan-cart h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.plan-cart span {
+    font-size: 20px;
+    font-weight: 500;
 }
