@@ -11,7 +11,7 @@ span {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    color: #999999;
+    color: #adadad;
 }
 
 h2 {
@@ -120,7 +120,6 @@ main {
 .positive-mindset h2 {
     color: #ffffff;
 }
-
 .positive-mindset button {
     padding: 20px 36px;
     font-size: 20px;
@@ -131,5 +130,61 @@ main {
 }
 .positive-mindset button:hover {
     background-color: #ffc392;
+    color: #ffffff;
+}
+
+/* style for footer */
+footer {
+    background-color: #151414;
+    margin-top: 130px;
+}
+.footer {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-info {
+    width: 320px;
+}
+.footer-info span {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.social-icon {
+    margin-right: 15px;
+}
+.social-icon:hover {
+    border: 2px solid #ff7200;
+}
+.subscribe {
+    width: 250px;
+}
+.subscribe span {
+    font-size: 25px;
+    font-weight: 600px;
+    color: #ffffff;
+}
+.subscribe input {
+    width: 100%;
+    margin-top: 31px;
+    padding: 21px;
+    background-color: #151414;
+    color: #b3b3b3;
+    border: 1px solid #b3b3b3;
+}
+.but-subscribe {
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff7200;
+    border: none;
+    border-radius: 5px;
+}
+.but-subscribe:hover {
+    background-color: #ff7503;
     color: #ffffff;
 }
